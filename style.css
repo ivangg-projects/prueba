@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   color: #1a1a1a;
   line-height: 1.6;
+  padding-top: 70px; /* Ajusta según la altura real del header */
 }
 
 /* ====== Encabezado ======= */
@@ -28,6 +29,8 @@ header {
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+
+
 
 header .logo {
   display: flex;
