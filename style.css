@@ -44,7 +44,7 @@ header img {
 
 header p {
   margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 /* Contenedor de imagen + texto */
@@ -57,19 +57,23 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 1rem;
-  margin: 0;
+  margin: 0.5rem;
   padding: 0;
 }
 
 header nav a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 header nav a:hover {
   text-decoration: underline;
 }
+
+
+
 
 /* Secciones */
 section {
