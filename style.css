@@ -63,7 +63,7 @@ header nav ul {
 
 header nav a {
   text-decoration: none;
-  color: #ffffff;  /* Color de letra */
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ section {
 }
 
 section h2 {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
