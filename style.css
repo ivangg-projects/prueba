@@ -7,31 +7,62 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #1a1a1a;
   line-height: 1.6;
 }
 
-/* Encabezado */
+/* ====== Encabezado ======= */
+
 header {
-  background-color: #a80000; /* rojo oscuro */
-  color: #fff;
-  padding: 1.5rem 1rem;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #8d92ad;
+  color: #151414;
+  flex-wrap: wrap; /* para adaptar en móviles */
 }
 
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
+/* Agrupar imagen y texto */
 header img {
-  max-width: 120px;
+  width: 100px;
   height: auto;
-  margin: 1rem auto;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Contenedor de imagen + texto */
+header img,
+header p {
   display: block;
 }
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 
 /* Navegación */
 nav ul {
@@ -98,6 +129,9 @@ footer {
   padding: 1.2rem;
   font-size: 0.9rem;
 }
+
+
+
 
 /* Responsive: Móviles y tablets */
 @media (max-width: 768px) {
