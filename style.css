@@ -27,7 +27,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 8px #ffffff;
+  box-shadow: 0 2px 8px #060018;
 }
 
 header .logo {
@@ -63,7 +63,7 @@ header nav ul {
 
 header nav a {
   text-decoration: none;
-  color: #ffffff;  /* Color de letra */
+  color: #000000;  /* Color de letra */
   font-weight: bold;
 }
 
