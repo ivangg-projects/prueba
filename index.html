@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
+  <!-- =========== Head =========== -->
   <head>
     <meta charset="UTF-8"/>
-    <title> El taller de David </title>
-    <meta name="description" content="taller mecánico de automóviles en La Bañeza, León. Reparación, cambio de aceite."/>
+    <title> Talleres David </title>
+    <meta name="description" content="taller mecánico, automóviles, coches, La Bañeza, León. Reparación, Cambio de aceite."/>
     <meta name="author" content="David"/>
     <meta name="keywords" content="taller, mecánico, La Bañeza, León, ruedas, aceite, motor, ."/>
     <link rel="stylesheet" href="style.css">
   </head> 
 
+
+  <!-- =========== Body =========== -->
   <body>
-    <header id="Inicio"> 
+    <header> 
       <div class="logo">
-        <img src="images/coche.jpg" alt="Logo del taller mecánico de David" />
-        <p> Taller mecánico David </p>
+        <img src="images/coche.jpg" alt="Logo de Talleres David" />
+        <p> Talleres David </p>
       </div>
-      <nav>
+
+      <!-- Menú pantalla grande -->
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Servicios">Servicios</a></li>
+          <li><a href="#Ofertas">Ofertas</a></li>
+          <li><a href="#Sobre-nosotros">Sobre nosotros</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+      <!-- Hamburguesa, pantalla pequeña -->
+      <div class="menu-wrapper">
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+          <nav class="nav-menu-s">
             <ul>
               <li><a href="#Inicio">Inicio</a></li>
               <li><a href="#Servicios">Servicios</a></li>
               <li><a href="#Ofertas">Ofertas</a></li>
-              <li><a href="#Sobre-nosotros">Sobre nosotros</a></li>
+              <li><a href="#Sobre-nosotros">Nosotros</a></li>
               <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
       </div>
-    </header>   
+ 
     
-    <section id = "Intro">
+    <section id = "Inicio">
       <article>
-        <p> </p>
-        <p> </p>
         <h2>Tu taller mecánico en La Bañeza</h2>
         <p> Nos especializamos en la reparación y mantenimiento de automóviles, ofreciendo un servicio rápido y de calidad.</p>
         <p> Pide cita </p>
       </article>
-
-      <article>
-        <h3>parte 2</h3>
-        <p> esto es más largo de lo que creía.</p>
-      </article>
     </section>
     
     <section id = "Servicios">
+      <article>
       <h2>Servicios</h2>
       <ul class="servicios-lista">
         <li>Revisiones generales</li>
@@ -50,6 +64,11 @@
         <li>Diagnóstico electrónico</li>
         <li>Neumáticos y frenos</li>
       </ul>
+      </article>
+      <article>
+        <h3>Empresas asociadasññññ</h3>
+        <p> Las marcas que usa, si quieren que paguen.</p>
+      </article>
     </section>
     
     <section id = "Ofertas">
@@ -61,7 +80,7 @@
 
     <section id = "Sobre-nosotros">
       <article>
-        <h2>Sobre nosotros</h2>
+        <h2>Nosotros</h2>
         <p> Llevo muchos años aquí.</p>
       </article>
     </section>
@@ -78,21 +97,12 @@
       <p> Política de cookies</p>    
     </section>
 
-
-    <aside>
-      <h2>Indice </h2>
-      <ul>
-         <li><a href="#Inicio">Inicio</a></li>
-         <li><a href="#Servicios">Servicios</a></li>
-         <li><a href="#Ofertas">Ofertas</a></li>
-         <li><a href="#Sobre-nosotros">Sobre nosotros</a></li>
-        <li><a href="#Contacto">Contacto</a></li>
-      </ul>
-    </aside>
-
     <footer>
       <p>&copy; 2025 Iván. Todos los derechos reservados.</p>
     </footer>
 
+
+      <!-- Scripts -->
+    <script src="menu.js"></script>
   </body>
 </html>
